@@ -1,0 +1,153 @@
+*{margin:0;padding:0;box-sizing:border-box;outline:none;}
+:root{--primary:#233362;--secondary:#d0f500;--white:#ffffff;--black:#000000;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-Black.eot');src:url('../fonts/LinearGrotesk-Black.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-Black.woff2') format('woff2'),url('../fonts/LinearGrotesk-Black.woff') format('woff'),url('../fonts/LinearGrotesk-Black.svg#LinearGrotesk-Black') format('svg');font-weight:900;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-Light.eot');src:url('../fonts/LinearGrotesk-Light.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-Light.woff2') format('woff2'),url('../fonts/LinearGrotesk-Light.woff') format('woff'),url('../fonts/LinearGrotesk-Light.svg#LinearGrotesk-Light') format('svg');font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-Bold.eot');src:url('../fonts/LinearGrotesk-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-Bold.woff2') format('woff2'),url('../fonts/LinearGrotesk-Bold.woff') format('woff'),url('../fonts/LinearGrotesk-Bold.svg#LinearGrotesk-Bold') format('svg');font-weight:bold;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-ExtraLight.eot');src:url('../fonts/LinearGrotesk-ExtraLight.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-ExtraLight.woff2') format('woff2'),url('../fonts/LinearGrotesk-ExtraLight.woff') format('woff'),url('../fonts/LinearGrotesk-ExtraLight.svg#LinearGrotesk-ExtraLight') format('svg');font-weight:200;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-Medium.eot');src:url('../fonts/LinearGrotesk-Medium.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-Medium.woff2') format('woff2'),url('../fonts/LinearGrotesk-Medium.woff') format('woff'),url('../fonts/LinearGrotesk-Medium.svg#LinearGrotesk-Medium') format('svg');font-weight:500;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-Thin.eot');src:url('../fonts/LinearGrotesk-Thin.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-Thin.woff2') format('woff2'),url('../fonts/LinearGrotesk-Thin.woff') format('woff'),url('../fonts/LinearGrotesk-Thin.svg#LinearGrotesk-Thin') format('svg');font-weight:100;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-SemiBold.eot');src:url('../fonts/LinearGrotesk-SemiBold.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-SemiBold.woff2') format('woff2'),url('../fonts/LinearGrotesk-SemiBold.woff') format('woff'),url('../fonts/LinearGrotesk-SemiBold.svg#LinearGrotesk-SemiBold') format('svg');font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:'Linear Grotesk';src:url('../fonts/LinearGrotesk-Regular.eot');src:url('../fonts/LinearGrotesk-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/LinearGrotesk-Regular.woff2') format('woff2'),url('../fonts/LinearGrotesk-Regular.woff') format('woff'),url('../fonts/LinearGrotesk-Regular.svg#LinearGrotesk-Regular') format('svg');font-weight:normal;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-Regular.eot');src:local('Glancyr Regular'),local('Glancyr-Regular'),url('../fonts/Glancyr-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-Regular.woff2') format('woff2'),url('../fonts/Glancyr-Regular.woff') format('woff'),url('../fonts/Glancyr-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-SemiBold.eot');src:local('Glancyr Semi Bold'),local('Glancyr-SemiBold'),url('../fonts/Glancyr-SemiBold.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-SemiBold.woff2') format('woff2'),url('../fonts/Glancyr-SemiBold.woff') format('woff'),url('../fonts/Glancyr-SemiBold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-Bold.eot');src:local('Glancyr Bold'),local('Glancyr-Bold'),url('../fonts/Glancyr-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-Bold.woff2') format('woff2'),url('../fonts/Glancyr-Bold.woff') format('woff'),url('../fonts/Glancyr-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-Thin.eot');src:local('Glancyr Thin'),local('Glancyr-Thin'),url('../fonts/Glancyr-Thin.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-Thin.woff2') format('woff2'),url('../fonts/Glancyr-Thin.woff') format('woff'),url('../fonts/Glancyr-Thin.ttf') format('truetype');font-weight:100;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-ExtraLight.eot');src:local('Glancyr Extra Light'),local('Glancyr-ExtraLight'),url('../fonts/Glancyr-ExtraLight.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-ExtraLight.woff2') format('woff2'),url('../fonts/Glancyr-ExtraLight.woff') format('woff'),url('../fonts/Glancyr-ExtraLight.ttf') format('truetype');font-weight:200;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-Light.eot');src:local('Glancyr Light'),local('Glancyr-Light'),url('../fonts/Glancyr-Light.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-Light.woff2') format('woff2'),url('../fonts/Glancyr-Light.woff') format('woff'),url('../fonts/Glancyr-Light.ttf') format('truetype');font-weight:300;font-style:normal;font-display:swap;}
+@font-face{font-family:'Glancyr';src:url('../fonts/Glancyr-Medium.eot');src:local('Glancyr Medium'),local('Glancyr-Medium'),url('../fonts/Glancyr-Medium.eot?#iefix') format('embedded-opentype'),url('../fonts/Glancyr-Medium.woff2') format('woff2'),url('../fonts/Glancyr-Medium.woff') format('woff'),url('../fonts/Glancyr-Medium.ttf') format('truetype');font-weight:500;font-style:normal;font-display:swap;}
+
+/*--- common css ---*/
+html{scroll-behavior:smooth;}
+body{font-size:16px;font-family:'Glancyr';font-weight:normal;color: var(--primary);}
+a,
+a:hover{text-decoration:none;}
+ol,
+ul{list-style:none;padding:0;margin:0;}
+small{font-size:14px;text-transform:uppercase;letter-spacing:1px;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{font-family:'Linear Grotesk';font-weight:900;}
+h1{font-size:60px;}
+h2{font-size:50px;text-transform:uppercase;}
+h3{font-size:40px;text-transform:uppercase;}
+p{line-height:1.8;color:rgba(102,102,102,1);}
+img,
+svg{max-width:100%;}
+.ptb-50{padding-top:50px;padding-bottom:50px;}
+.pt-100{padding-top:100px;}
+.mt-100{margin-top:100px;}
+.pb-50{padding-bottom:50px;}
+.titlewrapper{margin-bottom:30px;}
+.bg-gray{background-color:#f7f7f7;}
+.custom-space{row-gap:25px;}
+.common-btn{padding:10px 34px;color:var(--text-color);outline:none;border:1px solid transparent;border-radius:3px;background:var(--secondary);text-transform:capitalize;display:inline-block;transition:all .3s ease;}
+.common-btn:hover{background:var(--black);color:var(--white);}
+
+/*--- Header ---*/
+.header-fixed header{animation:smoothScroll 1s forwards;left:0;right:0;position:fixed;z-index:999;-webkit-backdrop-filter:blur(80px);backdrop-filter:blur(80px);border:1px solid hsla(0,0%,100%,.1);}
+header{padding:20px 0px;position:fixed;top:0;right:0;margin:0 auto;left:0;z-index:99;}
+.header-wrapper{display:flex;justify-content:space-between;align-items:center;}
+.navbar-menu{display:flex;gap:40px;}
+.navbar-menu li{position:relative;}
+.navbar-menu>li>a{transition:all .3s ease;text-transform:uppercase;letter-spacing:2px;color:var(--white);}
+.navbar-menu li:hover a,
+.navbar-menu li.active a{color:var(--secondary);}
+.navbar-menu li:hover a::after{border-color:var(--secondary)!important;}
+.navbar-menu li:has(> .submenu)>a:after{display:inline-block;padding:3px;position:relative;left:5px;transform:rotate(45deg) translateY(-59%);border-color:var(--white);border-width:0 2px 2px 0;content:" ";border-style:solid;}
+.navbar-menu li .submenu{position:fixed;top:0;transition:1s;visibility:hidden;opacity:0;overflow:hidden;transform:translateY(30%);max-width:300px;background:var(--white);z-index:11;}
+.navbar-menu li:hover .submenu{transform:translateY(60px);opacity:1;visibility:visible;}
+.navbar-menu .submenu li{padding:10px 25px;border-bottom:1px solid rgb(199 199 199 / 29%);}
+.navbar-menu .submenu li a{color:var(--text-color);font-size:14px;font-weight:500;text-transform:capitalize;width:100%;background:transparent;text-align:left;padding:0;}
+.navbar-menu .submenu li:hover{background:var(--primary);}
+.navbar-menu .submenu li:hover a{color:var(--white);}
+.menu-icon{display:none;}
+@keyframes smoothScroll{
+    0%{transform:translateY(-40px);}
+    100%{transform:translateY(0px);}
+}
+
+/* banner */
+.banner{background-repeat:no-repeat;background-size:cover;padding-top:200px;padding-bottom:200px;}
+.hero-content{color:var(--white);}
+.innerbanner{padding-top:120px;padding-bottom:120px;}
+.innerbanner .hero-content h1{margin:0;}
+
+/* about */
+.about-content{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/* services */
+.service-box {
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.service-box p {
+    margin: 0;
+    font-weight: 200;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  
+}
+
+/* industry */
+.industry-box{padding:30px 50px;border-radius:15px;height:100%;text-align:center;transition:all .3s ease;box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;cursor:pointer;min-height:210px;display:flex;align-items:center;justify-content:center;flex-direction:column;}
+.industry-box:hover{background-image:url(../images/gradiant-bg.jpg);background-position:center;transition:all .3s ease;}
+.industry-box:hover img{filter:invert(1);}
+.industry-box:hover h3{color:var(--white);}
+.industry-box h3{font-size:20px;font-weight:600;color:var(--text-color);margin-top:20px;}
+
+/* contact-us */
+.contact .card{border:none;}
+.contact .btn_hover{transition:.3s;display:inline-block;}
+.contact .btn_hover:hover{webkit-transform:translateY(-2px);-ms-transform:translateY(-2px);transform:translateY(-2px);}
+.contact .card-body{padding:50px 40px 40px!important;}
+.contact .form-control{font-size:13px;width:100%;display:block;color:#4e4e4e;line-height:1.7;border-radius:inherit;padding:15px 10px;height:inherit;border:1.5px solid #e2e2e2!important;}
+.contact .form-control:focus{box-shadow:none;border-color:#e2e2e2;}
+.contact_box{padding:40px;position:relative;width:100%;background-image:url(../images/gradiant-bg.jpg);background-position:center;}
+.contact_box h3{font-size:30px;text-align:center;text-transform:uppercase;margin:30px;}
+.contact_box i{background:var(--white);height:50px;width:50px;border-radius:100px;box-shadow:0 0 2px 1px rgba(0,0,0,0.1);display:flex;justify-content:center;align-items:center;font-size:30px;}
+.contact_box .icon{position:absolute;top:-20px;left:0;right:0;text-align:center;display:flex;font-size:25px;justify-content:center;}
+.contact_box h4{font-size:16px;font-weight:100;line-height:29px;letter-spacing:0.3px;display:inline-block;}
+.contact_no{font-size:18px;}
+.contact_box .address_detail{display:flex;flex-flow:column;justify-content:center;align-items:center;}
+.contact_box .phone{vertical-align:inherit;margin-right:15px;}
+.contact .form_box .form-group{margin-bottom:40px;}
+.contact textarea#message{min-height:90px;}
+.contact_btn{display:inline-block;}
+.iframe-map-section iframe{width:100%;display:block;height:400px;box-shadow:0 0 3px rgb(0 0 0 / 19%);}
+.custom-list{list-style:disc;padding-left:20px;}
+
+/* product */
+.product-gallary{margin-top:30px;}
+.product-image{border:1px solid #efefef;padding:20px;}
+
+/* footer */
+.footer h2{font-size:60px;}
+.footer h3{font-size:14px;}
+.footer .footer-quick-links li{padding-bottom:15px;position:relative;width:max-content;}
+.footer .footer-quick-links li:last-child{padding-bottom:0px;}
+.footer a{color:var(--text-color);transition:all .3s ease;display:flex;align-items:center;gap:12px;}
+.footer a img{width:20px;}
+.footer .ut_widget_contact li{display:flex;align-items:flex-start;}
+.copyright{background-image:url(../images/gradiant-bg.jpg);display:flex;flex-wrap:nowrap;justify-content:center;padding:10px 20px;}
+.copyright p,
+.copyright a{color:var(--white);margin:0;font-size:14px;display:inline-block;}
+
+/*--- responsive ---*/
+@media (max-width:991px){
+    .mobile-open{overflow:hidden;}
+    .menu-icon{max-height:22px;display:block;}
+    .mobile-toggle{position:absolute;right:20px;z-index:9;top:25px;}
+    .navbar-menu{position:fixed;top:70px;left:-100%;width:100%;height:100vh;overflow-y:auto;background:var(--primary);flex-direction:column;align-items:flex-start;transition:all 0.4s;z-index:9;padding:20px;}
+    .mobile-open .navbar-menu{left:0;transition:all 0.4s;}
+}
