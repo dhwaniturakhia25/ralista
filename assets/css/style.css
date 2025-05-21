@@ -201,6 +201,14 @@ h3 {
     font-size: 40px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
 p {
     line-height: 1.8;
     color: rgba(102, 102, 102, 1);
@@ -295,6 +303,7 @@ svg {
     padding: 15px 10px;
     height: inherit;
     border: 1.5px solid #e2e2e2 !important;
+    color: var(--white);
 }
 
 .custom-input:focus {
@@ -316,6 +325,10 @@ svg {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.title-w {
+    max-width: 490px;
 }
 
 /*--- Header ---*/
@@ -445,6 +458,11 @@ header .close-icon {
     margin: 0;
 }
 
+.innerbanner .hero-content p {
+    color: var(--white);
+    font-size: 20px;
+}
+
 .about-content {
     max-width: 950px;
     margin: 0 auto;
@@ -472,15 +490,12 @@ header .close-icon {
     min-height: 106px;
 }
 
-.product-image {
-    height: 285px;
-    margin-bottom: 24px;
-}
-
-.product-image img {
+.product-box {
+    padding: 30px 20px 20px;
     height: 100%;
-    width: 100%;
-    object-fit: fill;
+    border-radius: 20px;
+    border: 2px dashed #ffffff !important;
+    background: linear-gradient(#ffffff 0 0) padding-box, linear-gradient(90deg, #16B28B 0%, #1E56C0 100%) border-box;
 }
 
 /* industry */
@@ -697,6 +712,10 @@ header .close-icon {
         padding-top: 50px;
     }
 
+    .title-w {
+        max-width: 100%;
+    }
+
     .mobile-open {
         overflow: hidden;
     }
@@ -755,7 +774,7 @@ header .close-icon {
         transition: 1s;
     }
 
-    .navbar-menu li.active .submenu{
+    .navbar-menu li.active .submenu {
         max-height: 180px;
         overflow: auto;
         transition: 1s;
@@ -829,10 +848,6 @@ header .close-icon {
     .contact_box {
         padding: 20px;
         text-align: center;
-    }
-
-    .product-image {
-        margin-bottom: 0;
     }
 
     .contact_box h3 {
