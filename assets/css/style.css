@@ -101,7 +101,7 @@ header .close-icon{display:none;}
 .product-box{padding:30px 20px 20px;height:100%;border-radius:20px;border:2px dashed #ffffff!important;background:linear-gradient(#ffffff 0 0) padding-box,linear-gradient(90deg,#16B28B 0%,#1E56C0 100%) border-box;}
 
 /* industry */
-.industry-box{padding:30px 50px;border-radius:15px;height:100%;text-align:center;transition:all .3s ease;box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;cursor:pointer;min-height:210px;display:flex;align-items:center;justify-content:center;flex-direction:column;}
+.industry-box{padding:30px 50px;color: var(--primary);border-radius:15px;height:100%;text-align:center;transition:all .3s ease;box-shadow:rgba(99,99,99,0.2) 0px 2px 8px 0px;cursor:pointer;min-height:210px;display:flex;align-items:center;justify-content:center;flex-direction:column;}
 .industry-box:hover{background-image:url(../images/gradiant-bg.jpg);background-position:center;transition:all .3s ease;}
 .industry-box:hover img{filter:invert(1);}
 .industry-box:hover h3{color:var(--white);}
