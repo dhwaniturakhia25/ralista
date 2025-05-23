@@ -130,7 +130,7 @@ header .close-icon{display:none;}
 .footer-wrapper{padding-top:50px;padding-bottom:20px;}
 .footer-title{font-size:40px;max-width:450px;line-height:50px;color:var(--white);}
 .footer-wrapper .input-wrapper{margin-bottom:25px;}
-.footer-wrapper .custom-input{background:linear-gradient(180deg,#233362 0%,#304687 36.06%,#4768C8 100%);border:none;line-height: normal;border-radius:12px;}
+.footer-wrapper .custom-input{background:linear-gradient(180deg,#233362 0%,#304687 36.06%,#4768C8 100%);border: none !important;border-radius:12px;}
 .footer-wrapper .custom-input::placeholder{color:var(--white);}
 .footer-bottom-title{color:#EFF3F6;font-size:69px;text-align:center;margin:70px 0px 40px;}
 
